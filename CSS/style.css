@@ -3,12 +3,14 @@ body {
     font-family: "Cabin", sans-serif;
     background-color: #d2d2d2;
 }
+
 .fondo {
   background-image: url('../img/fondo.jpg');
    width: 100%;
   background-size: cover; 
   background-position: center; 
 }
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -16,6 +18,7 @@ body {
   font-size: 45px;
   color: rgba(207, 169, 18, 0.838);
 }
+
 .logo img {
     width: 150px;
     display: flex;
@@ -23,9 +26,11 @@ body {
     justify-content:flex-start;
     align-items: start;
 }
+
 .inicio p, h2{
     font-size: 30px;
 }
+
 .inicio {
     width: 400px; 
     padding: 70px;
@@ -34,6 +39,7 @@ body {
     justify-content:flex-start;
     color: rgb(255, 239, 198);
 }
+
 .colum {
   background-color: rgba(222, 160, 16, 0.521);
   padding: 0px 10px 0px 10px;
@@ -44,15 +50,18 @@ body {
   transition: transform 0.3s ease;
   color: rgb(112, 61, 6);
 }
+
 .colum img {
     margin-top: 20px;
   margin-left: 40px;
   width: 170px;
   border-radius: 15px;
 }
+
 .colum p {
   text-align: justify;
 }
+
 .colum:hover{
   transform: scale(1.05);
 }
@@ -63,43 +72,43 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
+
 .linea {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .objetivos{
     font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
 }
+
 .fondo2 {
   background-image: url('../img/fondo2.jpg');
    width: 100%;
   background-size: cover; 
   background-position: center; 
 }
-.fondo2::before {
-    content: "";
-    position: absolute;
-    background-image: url('../img/fondo2.jpg');
-    background-color: rgba(255, 255, 255, 0.1);
-    z-index: -1;
-}
+
 .final{
 font-size: 25px;
 display: flex;
 flex-direction: row;
 justify-content: center;
 }
+
 .final img{
     width: 100px;
 }
+
 footer {
   padding: 10px;
   background-color: grey;
 }
+
 footer p {
   display: flex;
   justify-content: center;
